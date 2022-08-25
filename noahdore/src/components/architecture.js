@@ -23,7 +23,7 @@ export default function Architecture(){
     >
         <div className="z-10"> <BlackNav /></div>
        
-        <div className="flex items-center flex-col md:flex-row max-w-[100%]  ">
+        <div className="flex  flex-col md:flex-row max-w-[100%]  ">
 
             
 
