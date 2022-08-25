@@ -27,7 +27,7 @@ export default function Automotive(){
 
             
 
-        <div className= "w-[100%] md:w-[65%] h-[100vh] z-1 ">
+        <div className= "w-[100%] md:w-[65%] h-[100vh]  ">
         {isMobile? <h1 className="text-black text-[40px] md:text-[55px] text-center px-5 my-10">Automotive Photography</h1>: ""}
             <div className="grid grid-cols-2 gap-4 px-4">
                 
@@ -39,7 +39,7 @@ export default function Automotive(){
             
         </div>
 
-        <div   className= ' bg-white w-[80%] md:w-[35%]  pb-5 z-10 '>
+        <div   className= ' bg-white w-[100%] md:w-[35%] text-center pb-5 mt-10 md:mt-0 '>
            
             <div  className=" flex flex-col items-center">
             {isMobile?  "" : <h1 className="text-black text-[40px] md:text-[55px] text-center px-5">Automotive Photography</h1>}

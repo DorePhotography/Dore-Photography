@@ -54,7 +54,7 @@ export default function Service(){
                 <Link to = '/automotive'  className="w-[90%] h-[400px] mt-10  overflow-hidden relative cursor-pointer">
                     <div onMouseEnter={toggleHover} onMouseLeave={toggleHover} >
                         <div className={hovering? "w-[100%] h-[100%] scale-105 transition-transform duration-500 ":"w-[100%] h-[100%] scale-100 transition-transform duration-500 "}><img className="object-cover w-[100%] h-[500px]" src={Auto}></img></div>
-                        <h2 className="absolute left-5 top-10 text-white text-[60px] lg:text-[100px]">DORE x AUTOMOTIVE</h2>
+                        <h2 className="absolute left-5 top-10 text-white text-[50px] lg:text-[100px]">DORE x AUTOMOTIVE</h2>
                         <p className="absolute left-7 bottom-[120px] lg:bottom-[190px] text-white text-[30px]">Brand Colabs</p>
                     </div>
                 </Link>
@@ -62,7 +62,7 @@ export default function Service(){
                 <Link to = '/action'  className="w-[90%] h-[400px] mt-10  overflow-hidden relative cursor-pointer">
                     <div onMouseEnter={toggleHover2} onMouseLeave={toggleHover2} >
                         <div className={hovering2? "w-[100%] h-[100%] scale-105 transition-transform duration-500 ":"w-[100%] h-[100%] scale-100 transition-transform duration-500 "}><img className="object-cover w-[100%] h-[500px]" src={Action}></img></div>
-                        <h2 className="absolute left-5 top-10 text-white text-[60px] lg:text-[100px]">DORE x ACTION SPORTS</h2>
+                        <h2 className="absolute left-5 top-10 text-white text-[50px] lg:text-[100px]">DORE x ACTION SPORTS</h2>
                         <p className="absolute left-7 bottom-[120px] lg:bottom-[190px] text-white text-[30px]">Brand Colabs</p>
                     </div>
                 </Link>
@@ -70,7 +70,7 @@ export default function Service(){
                 <Link to = '/events'  className="w-[90%] h-[400px] mt-10  overflow-hidden relative cursor-pointer">
                     <div onMouseEnter={toggleHover3} onMouseLeave={toggleHover3} >
                         <div className={hovering3? "w-[100%] h-[100%] scale-105 transition-transform duration-500 ":"w-[100%] h-[100%] scale-100 transition-transform duration-500 "}><img className="object-cover w-[100%] h-[500px]" src={Events}></img></div>
-                        <h2 className="absolute left-5 top-10 text-white text-[60px] lg:text-[100px]">DORE x EVENTS</h2>
+                        <h2 className="absolute left-5 top-10 text-white text-[50px] lg:text-[100px]">DORE x EVENTS</h2>
                         <p className="absolute left-7 bottom-[120px] lg:bottom-[190px] text-white text-[30px]">Brand Colabs</p>
                     </div>
                 </Link>
@@ -78,7 +78,7 @@ export default function Service(){
                 <Link to = '/architecture'  className="w-[90%] h-[400px] mt-10  overflow-hidden relative cursor-pointer mb-10">
                     <div onMouseEnter={toggleHover4} onMouseLeave={toggleHover4} >
                         <div className={hovering4? "w-[100%] h-[100%] scale-105 transition-transform duration-500 ":"w-[100%] h-[100%] scale-100 transition-transform duration-500 "}><img className="object-cover w-[100%] h-[500px]" src={Architecture}></img></div>
-                        <h2 className="absolute left-5 top-10 text-white text-[60px] lg:text-[100px]">DORE x ARCHITECTURE</h2>
+                        <h2 className="absolute left-5 top-10 text-white text-[50px] lg:text-[100px]">DORE x ARCHITECTURE</h2>
                         <p className="absolute left-7 bottom-[120px] lg:bottom-[190px] text-white text-[30px]">Brand Colabs</p>
                     </div>
                 </Link>

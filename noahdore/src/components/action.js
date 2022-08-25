@@ -26,8 +26,8 @@ export default function Action(){
 
             
 
-        <div className= "w-[100%] md:w-[65%] h-[100vh] z-1 ">
-        {isMobile? <h1 className="text-black text-[40px] md:text-[55px] text-center px-5 my-10">Automotive Photography</h1>: ""}
+        <div className= "w-[100%] md:w-[65%] h-[100vh]  ">
+        {isMobile? <h1 className="text-black text-[40px] md:text-[55px] text-center px-5 my-10">Action Sports Photography</h1>: ""}
             <div className="grid grid-cols-2 gap-4 px-4">
                 
                 <img src={Img1}></img>
@@ -38,10 +38,10 @@ export default function Action(){
             
         </div>
 
-        <div   className= ' bg-white w-[80%] md:w-[35%]  pb-5 z-10 '>
+        <div   className= ' bg-white w-[100%] md:w-[35%]  pb-5 mt-10 md:mt-0 '>
            
             <div  className=" flex flex-col items-center">
-            {isMobile?  "" : <h1 className="text-black text-[40px] md:text-[55px] text-center px-5">Automotive Photography</h1>}
+            {isMobile?  "" : <h1 className="text-black text-[40px] md:text-[55px] text-center px-5">Action Sports Photography</h1>}
             <p className="px-5 text-[20px] text-center">At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint.</p>
             </div>
             
