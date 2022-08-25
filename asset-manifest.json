@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Dore-Photography/static/css/main.1c809184.css",
-    "main.js": "/Dore-Photography/static/js/main.1c16e49a.js",
+    "main.js": "/Dore-Photography/static/js/main.693c1e77.js",
     "static/js/787.43237f89.chunk.js": "/Dore-Photography/static/js/787.43237f89.chunk.js",
     "static/media/Action1.jpg": "/Dore-Photography/static/media/Action1.6dea572713c24dc99cce.jpg",
     "static/media/Architecture1.jpg": "/Dore-Photography/static/media/Architecture1.6dea572713c24dc99cce.jpg",
@@ -28,11 +28,11 @@
     "static/media/Insta.png": "/Dore-Photography/static/media/Insta.f17dfc7783ea8b3bb5f7.png",
     "index.html": "/Dore-Photography/index.html",
     "main.1c809184.css.map": "/Dore-Photography/static/css/main.1c809184.css.map",
-    "main.1c16e49a.js.map": "/Dore-Photography/static/js/main.1c16e49a.js.map",
+    "main.693c1e77.js.map": "/Dore-Photography/static/js/main.693c1e77.js.map",
     "787.43237f89.chunk.js.map": "/Dore-Photography/static/js/787.43237f89.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c809184.css",
-    "static/js/main.1c16e49a.js"
+    "static/js/main.693c1e77.js"
   ]
 }
