@@ -62,24 +62,39 @@ export default function Service(){
                 <Link to = '/action'  className="w-[90%] h-[400px] mt-10  overflow-hidden relative cursor-pointer">
                     <div onMouseEnter={toggleHover2} onMouseLeave={toggleHover2} >
                         <div className={hovering2? "w-[100%] h-[100%] scale-105 transition-transform duration-500 ":"w-[100%] h-[100%] scale-100 transition-transform duration-500 "}><img className="object-cover w-[100%] h-[500px]" src={Action}></img></div>
+<<<<<<< HEAD
                         <h2 className="absolute left-5 top-10 text-white text-[50px] lg:text-[100px]">DORE x ACTION SPORTS</h2>
                         <p className="absolute left-7 bottom-[120px] lg:bottom-[190px] text-white text-[30px]">Brand Colabs</p>
+=======
+                        <h2 className="absolute left-5 top-10 text-white text-[60px] lg:text-[100px]">DORE x ACTION SPORTS</h2>
+                        <p className="absolute left-7 bottom-[120px] lg:bottom-[190px] text-white text-[30px]">FREEZE THE MOMENTs</p>
+>>>>>>> 9e8d4db78189e6e3dbdff1302ebc6f8390b089f0
                     </div>
                 </Link>
                
                 <Link to = '/events'  className="w-[90%] h-[400px] mt-10  overflow-hidden relative cursor-pointer">
                     <div onMouseEnter={toggleHover3} onMouseLeave={toggleHover3} >
                         <div className={hovering3? "w-[100%] h-[100%] scale-105 transition-transform duration-500 ":"w-[100%] h-[100%] scale-100 transition-transform duration-500 "}><img className="object-cover w-[100%] h-[500px]" src={Events}></img></div>
+<<<<<<< HEAD
                         <h2 className="absolute left-5 top-10 text-white text-[50px] lg:text-[100px]">DORE x EVENTS</h2>
                         <p className="absolute left-7 bottom-[120px] lg:bottom-[190px] text-white text-[30px]">Brand Colabs</p>
+=======
+                        <h2 className="absolute left-5 top-10 text-white text-[60px] lg:text-[100px]">DORE x EVENTS</h2>
+                        <p className="absolute left-7 bottom-[120px] lg:bottom-[190px] text-white text-[30px]">CAPTURE THE EMOTION</p>
+>>>>>>> 9e8d4db78189e6e3dbdff1302ebc6f8390b089f0
                     </div>
                 </Link>
 
                 <Link to = '/architecture'  className="w-[90%] h-[400px] mt-10  overflow-hidden relative cursor-pointer mb-10">
                     <div onMouseEnter={toggleHover4} onMouseLeave={toggleHover4} >
                         <div className={hovering4? "w-[100%] h-[100%] scale-105 transition-transform duration-500 ":"w-[100%] h-[100%] scale-100 transition-transform duration-500 "}><img className="object-cover w-[100%] h-[500px]" src={Architecture}></img></div>
+<<<<<<< HEAD
                         <h2 className="absolute left-5 top-10 text-white text-[50px] lg:text-[100px]">DORE x ARCHITECTURE</h2>
                         <p className="absolute left-7 bottom-[120px] lg:bottom-[190px] text-white text-[30px]">Brand Colabs</p>
+=======
+                        <h2 className="absolute left-5 top-10 text-white text-[60px] lg:text-[100px]">DORE x ARCHITECTURE</h2>
+                        <p className="absolute left-7 bottom-[120px] lg:bottom-[190px] text-white text-[30px]">BEAUTY IN DESIGN</p>
+>>>>>>> 9e8d4db78189e6e3dbdff1302ebc6f8390b089f0
                     </div>
                 </Link>
                
