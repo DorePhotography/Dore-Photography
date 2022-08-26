@@ -32,7 +32,7 @@ export default function Automotive(){
             <div className="grid grid-cols-2 gap-4 px-4">
                 
                 <img src={Img1}></img>
-                <img src={Img3}></img>
+                <img src={Img2}></img>
                 <img src={Img3}></img>
                 <img src={Img4}></img>
             </div>

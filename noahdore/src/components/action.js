@@ -1,8 +1,8 @@
 import { isMobile } from "react-device-detect"
 import Img1 from "../images/serviceData/Action1.jpg"
 import Img2 from "../images/serviceData/Action2.jpg"
-import Img3 from "../images/serviceData/Action3.png"
-import Img4 from "../images/serviceData/Action4.png"
+import Img3 from "../images/serviceData/Action3.jpg"
+import Img4 from "../images/serviceData/Action4.jpg"
 import BlackNav from "./darkNav"
 import Footer from "./footer"
 import { motion, AnimatePresence } from "framer-motion"
@@ -26,14 +26,15 @@ export default function Action(){
 
             
 
-        <div className= "w-[100%] md:w-[65%] h-[100vh]  ">
+        <div className= "w-[100%] md:w-[65%] h-[100vh] flex flex-col items-center  ">
         {isMobile? <h1 className="text-black text-[40px] md:text-[55px] text-center px-5 my-10">Action Sports Photography</h1>: ""}
-            <div className="grid grid-cols-2 gap-4 px-4">
+            <div className="grid grid-cols-2 gap-4 px-4 ">
                 
-                <img src={Img1}></img>
+               
+                <img src={Img2}></img>
                 <img src={Img3}></img>
-                <img src={Img3}></img>
-                <img src={Img4}></img>
+                <img className="col-span-2" src={Img1}></img>
+                <img className="col-span-2" src={Img4}></img>
             </div>
             
         </div>

@@ -42,8 +42,10 @@ export default function Home(){
 
     const { scrollYProgress } = useScroll(-50)
     
-    const y = useTransform(scrollYProgress, [0,1], [0, -100 * 0])
-    const y2 = useTransform(scrollYProgress, [0,1], [0, -100 * 7])
+    const y = useTransform(scrollYProgress, [0,1], [0, -100 * 1])
+    const y2 = useTransform(scrollYProgress, [0,1], [0, -100 * 5])
+    const y2b = useTransform(scrollYProgress, [0,1], [-400, 200 * 1])
+    const y2bb = useTransform(scrollYProgress, [0,1], [-700, 0 * 1])
 
     const y3 = useTransform(scrollYProgress, [0,1], [0, -0 * 1])
     
@@ -63,7 +65,7 @@ export default function Home(){
             <div>
             
             
-            <div  className="bg-landing-img  bg-center h-[100vh] ">
+            <div  className="bg-landing-img landingbg  h-[100vh] ">
                 <Nav />
             </div>
         
@@ -104,7 +106,7 @@ export default function Home(){
                   <Link to="action"><p className={isMobile? "absolute bottom-3 right-3  z-10 text-white text-[20px]":" cursor-pointer absolute top-[370px] left-[160px] z-20 text-white text-[40px] hover:opacity-85 hover-underline-animation" }>Learn More</p></Link>
                   
 
-                      <motion.img style={isMobile? '' :{y: y2 }} className={isMobile? " object-cover w-[100%] h-[300px]":" object-cover w-[100%] h-[1500px]"} src={bike}></motion.img>
+                      <motion.img style={isMobile? '' :{y: y2b }} className={isMobile? " object-cover w-[100%] h-[300px]":" object-cover w-[100%] h-[1200px]"} src={bike}></motion.img>
                 
                          
                   </div>
@@ -138,7 +140,7 @@ export default function Home(){
                   <Link to="architecture"><p className={isMobile? "absolute bottom-3 right-3  z-10 text-white text-[20px]":" cursor-pointer absolute top-[370px] left-[160px] z-20 text-white text-[40px] hover:opacity-85 hover-underline-animation" }>Learn More</p></Link>
                   
 
-                      <motion.img style={isMobile? '' :{y: y2 }} className={isMobile? " object-cover w-[100%] h-[300px]":" object-cover w-[100%] h-[1500px]"} src={architecture}></motion.img>
+                      <motion.img style={isMobile? '' :{y: y2bb }} className={isMobile? " object-cover w-[100%] h-[300px]":" object-cover w-[100%] h-[1500px]"} src={architecture}></motion.img>
                 
                          
                   </div>

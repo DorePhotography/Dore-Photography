@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import MobileMenu from "./components/mobileMenu";
 import Service from "./components/services";
 import Architecture from "./components/architecture";
+import Influencer from "./components/influencer";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="events" element={ <Events/> } />
         <Route path="architecture" element={ <Architecture/> } />
         <Route path="mobilemenu" element={ <MobileMenu/> } />
+        <Route path="influencer" element={ <Influencer/> } />
         
     </Routes>
 
