@@ -56,7 +56,7 @@ export default function Home(){
     
         return(
             <AnimatePresence>
-            <motion.div className="h-[100vh] w-[100vw]   relative "
+            <motion.div className="h-[100vh] w-[100%]   relative "
          initial={{ opacity: 0 }}
          animate={{ opacity: 1 }}
          exit={{ opacity: 0 }}
@@ -65,7 +65,7 @@ export default function Home(){
             <div>
             
             
-            <div  className="bg-landing-img landingbg  h-[100vh] ">
+            <div  className="bg-landing-img landingbg h-[100%] md:h-[100vh] ">
                 <Nav />
             </div>
         
