@@ -64,8 +64,8 @@ export default function Service(){
 
                         
 
-                        <h2 className="absolute left-5 top-10 text-white text-[50px] lg:text-[100px]">DORE x INFLUENCER</h2>
-                        <p className="absolute left-7 bottom-[120px] lg:bottom-[190px] text-white text-[30px]">BEAUTY IN DESIGN</p>
+                        <h2 className="absolute left-5 top-10 text-white text-[35px] lg:text-[100px]">DORE x INFLUENCER</h2>
+                        <p className="absolute left-6 lg:left-7 bottom-[270px] lg:bottom-[190px] text-white text-[25px] lg:text-[30px]">BEAUTY IN DESIGN</p>
 
                     </div>
                 </Link>
@@ -73,8 +73,8 @@ export default function Service(){
                 <Link to = '/automotive'  className="w-[90%] h-[400px] mt-10  overflow-hidden relative cursor-pointer">
                     <div onMouseEnter={toggleHover} onMouseLeave={toggleHover} >
                         <div className={hovering? "w-[100%] h-[100%] scale-105 transition-transform duration-500 ":"w-[100%] h-[100%] scale-100 transition-transform duration-500 "}><img className="object-cover w-[100%] h-[500px]" src={Auto}></img></div>
-                        <h2 className="absolute left-5 top-10 text-white text-[50px] lg:text-[100px]">DORE x AUTOMOTIVE</h2>
-                        <p className="absolute left-7 bottom-[120px] lg:bottom-[190px] text-white text-[30px]">Brand Colabs</p>
+                        <h2 className="absolute left-5 top-10 text-white text-[35px] lg:text-[100px]">DORE x AUTOMOTIVE</h2>
+                        <p className="absolute left-6 lg:left-7 bottom-[270px] lg:bottom-[190px] text-white text-[25px] lg:text-[30px]">Brand Colabs</p>
                     </div>
                 </Link>
 
@@ -89,8 +89,8 @@ export default function Service(){
 
                         
 
-                        <h2 className="absolute left-5 top-10 text-white text-[50px] lg:text-[100px]">DORE x ACTION SPORTS</h2>
-                        <p className="absolute left-7 bottom-[120px] lg:bottom-[190px] text-white text-[30px]">FREEZE THE MOMENTs</p>
+                        <h2 className="absolute left-5 top-10 text-white text-[35px] lg:text-[100px]">DORE x ACTION SPORTS</h2>
+                        <p className="absolute left-6 lg:left-7 bottom-[270px] lg:bottom-[190px] text-white text-[25px] lg:text-[30px]">FREEZE THE MOMENTs</p>
 
                     </div>
                 </Link>
@@ -101,8 +101,8 @@ export default function Service(){
 
                         
 
-                        <h2 className="absolute left-5 top-10 text-white text-[50px] lg:text-[100px]">DORE x EVENTS</h2>
-                        <p className="absolute left-7 bottom-[120px] lg:bottom-[190px] text-white text-[30px]">CAPTURE THE EMOTION</p>
+                        <h2 className="absolute left-5 top-10 text-white text-[35px] lg:text-[100px]">DORE x EVENTS</h2>
+                        <p className="absolute left-6 lg:left-7 bottom-[270px] lg:bottom-[190px] text-white text-[25px] lg:text-[30px]">CAPTURE THE EMOTION</p>
 
                     </div>
                 </Link>
@@ -113,8 +113,8 @@ export default function Service(){
 
                         
 
-                        <h2 className="absolute left-5 top-10 text-white text-[50px] lg:text-[100px]">DORE x ARCHITECTURE</h2>
-                        <p className="absolute left-7 bottom-[120px] lg:bottom-[190px] text-white text-[30px]">BEAUTY IN DESIGN</p>
+                        <h2 className="absolute left-5 top-10 text-white text-[35px] lg:text-[100px]">DORE x ARCHITECTURE</h2>
+                        <p className="absolute left-5 lg:left-7 bottom-[270px] lg:bottom-[190px] text-white text-[25px] lg:text-[30px]">BEAUTY IN DESIGN</p>
 
                     </div>
                 </Link>

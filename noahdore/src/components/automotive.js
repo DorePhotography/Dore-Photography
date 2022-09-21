@@ -27,9 +27,9 @@ export default function Automotive(){
 
             
 
-        <div className= "w-[100%] md:w-[65%] h-[100vh]  ">
+        <div className= "w-[100%] md:w-[65%]  h-[100vh]  ">
         {isMobile? <h1 className="text-black text-[40px] md:text-[55px] text-center px-5 my-10">Automotive Photography</h1>: ""}
-            <div className="grid grid-cols-1 gap-4 px-4">
+            <div className="grid grid-cols-1 max-w-[1000px] gap-4 px-4">
                 
                 <img src={Img2}></img>
                 <img src={Img3}></img>

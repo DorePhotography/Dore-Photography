@@ -14,9 +14,9 @@ export default function About(){
      transition={{ duration: 1 }}
     >
         
-        <div className={isMobile? "flex flex-col p-10" : "flex flex-col md:flex-row justify-start md:justify-between  px-20 md:px-20 mt-15 md:mt-20 h-[100vh] "}>
+        <div className={isMobile? "flex flex-col p-10" : "flex flex-col md:flex-row justify-start md:justify-center  px-20 md:px-20 mt-15 md:mt-20 h-[100vh] "}>
 
-            <div clasname="flex flex-col p-10">
+            <div clasname="flex flex-col p-10 mr-[100px]">
                 <img className={isMobile? " rounded-[200px] w-[200px] mb-5 drop-shadow-2xl ":"rounded-[200px] w-[350px] mb-10 drop-shadow-2xl"} src={NoahPic}></img>
                 <h2 className="text-[50px] text-[#202020]">Noah Dore</h2>
                 <div className="max-w-[450px] flex-col">
@@ -24,11 +24,11 @@ export default function About(){
                 </div>
             </div>
 
-            <div className={isMobile? "hidden" :"border-r-2 h-[600px] mr-10 hidden xl:mt-5 xl:flex "}>
+            <div className={isMobile? "hidden" :"border-r-2 h-[600px] mr-10 md:mx-[100px] hidden xl:mt-5 xl:flex "}>
 
             </div>
 
-            <div className="mt-10 md:pr-20 md:mt-20">
+            <div className="mt-10 md:pr-20 md:mt-20 md:ml-[100px]">
                 <div>
                     <h3 className="text-[45px]">Contact</h3>
                     <p className="text-[30px] ">dore_photo@icloud.com</p>

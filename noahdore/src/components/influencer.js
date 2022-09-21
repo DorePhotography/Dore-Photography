@@ -29,7 +29,7 @@ export default function Influencer(){
 
         <div className= "w-[100%] md:w-[65%] h-[100vh] flex flex-col items-center  ">
         {isMobile? <h1 className="text-black text-[40px] md:text-[55px] text-center px-5 my-10">Influencer Photography</h1>: ""}
-            <div className="grid grid-cols-2 gap-4 px-4 ">
+            <div className="grid grid-cols-2 max-w-[1000px] gap-4 px-4 ">
                 
                
                 <img src={Img2}></img>

@@ -65,7 +65,7 @@ export default function Home(){
             <div>
             
             
-            <div  className="bg-landing-img landingbg h-[100%] md:h-[100vh] ">
+            <div  className="bg-landing-img landingbg h-[100vh] md:h-[100vh] ">
                 <Nav />
             </div>
         
@@ -79,7 +79,7 @@ export default function Home(){
 
                    <div className=" h-[100%] w-[100%] overflow-hidden z-1 relative  "   >
 
-                       <h1 className={isMobile? "absolute bottom-6 right-2  z-10 text-white text-[50px]":" cursor-pointer absolute top-60 left-40 z-10 text-white text-[100px] hover:opacity-85 " }>Automotive</h1>
+                   <Link to="automotive"><h1 className={isMobile? "absolute bottom-6 right-2  z-10 text-white text-[50px]":" cursor-pointer absolute top-60 left-40 z-10 text-white text-[100px] hover:opacity-85 " }>Automotive</h1></Link>
                        <Link to="automotive"><p className={isMobile? "absolute bottom-3 right-3  z-10 text-white text-[20px]":" cursor-pointer absolute top-[370px] left-[160px] z-20 text-white text-[40px] hover:opacity-85 hover-underline-animation" }>Learn More</p></Link>
                   
                        <motion.img style={isMobile? '' :{y: y2 }} className={isMobile? " object-cover w-[100%] h-[300px] ":" object-cover w-[100%] h-[1500px]"} src={auto}></motion.img>
@@ -102,7 +102,7 @@ export default function Home(){
 
                   <div className=" h-[100%] w-[100%] overflow-hidden z-1 relative"   >
 
-                  <h1 className={isMobile? "absolute bottom-6 right-2  z-10 text-white text-[50px]":" cursor-pointer absolute top-60 left-40 z-10 text-white text-[100px] hover:opacity-85 " }>Action Sports</h1>
+                  <Link to="action"><h1 className={isMobile? "absolute bottom-6 right-2  z-10 text-white text-[50px]":" cursor-pointer absolute top-60 left-40 z-10 text-white text-[100px] hover:opacity-85 " }>Action Sports</h1></Link>
                   <Link to="action"><p className={isMobile? "absolute bottom-3 right-3  z-10 text-white text-[20px]":" cursor-pointer absolute top-[370px] left-[160px] z-20 text-white text-[40px] hover:opacity-85 hover-underline-animation" }>Learn More</p></Link>
                   
 
@@ -119,7 +119,7 @@ export default function Home(){
 
                   <div className=" h-[100%] w-[100%] overflow-hidden z-1 relative"   >
 
-                  <h1 className={isMobile? "absolute bottom-6 right-2  z-10 text-white text-[50px]":"  absolute top-60 left-40 z-10 text-white text-[100px] hover:opacity-85 " }>Events</h1>
+                  <Link to="events"><h1 className={isMobile? "absolute bottom-6 right-2  z-10 text-white text-[50px]":"  absolute top-60 left-40 z-10 text-white text-[100px] hover:opacity-85 " }>Events</h1></Link>
                   <Link to="events"><p className={isMobile? "absolute bottom-3 right-3  z-10 text-white text-[20px]":" cursor-pointer absolute top-[370px] left-[160px] z-20 text-white text-[40px] hover:opacity-85 hover-underline-animation" }>Learn More</p></Link>
                   
 
@@ -136,7 +136,7 @@ export default function Home(){
 
                   <div className=" h-[100%] w-[100%] overflow-hidden z-1 relative"   >
 
-                  <h1 className={isMobile? "absolute bottom-6 right-2  z-10 text-white text-[50px]":" cursor-pointer absolute top-60 left-40 z-10 text-white text-[100px] hover:opacity-85 " }>Architecture</h1>
+                  <Link to="architecture"><h1 className={isMobile? "absolute bottom-6 right-2  z-10 text-white text-[50px]":" cursor-pointer absolute top-60 left-40 z-10 text-white text-[100px] hover:opacity-85 " }>Architecture</h1></Link>
                   <Link to="architecture"><p className={isMobile? "absolute bottom-3 right-3  z-10 text-white text-[20px]":" cursor-pointer absolute top-[370px] left-[160px] z-20 text-white text-[40px] hover:opacity-85 hover-underline-animation" }>Learn More</p></Link>
                   
 
