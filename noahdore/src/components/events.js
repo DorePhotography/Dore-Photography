@@ -42,7 +42,7 @@ export default function Events(){
            
             <div  className=" flex flex-col items-center">
             {isMobile?  "" : <h1 className="text-black text-[40px] md:text-[55px] text-center px-5">Events Photography</h1>}
-            <p className="px-5 text-[20px] text-center">Whether it's a concert, wedding or corperate event, capturing the energy expereinced is mission critical. If you're looking to capture that energy, follow the steps below so we can Freeze The Moment.</p>
+            <p className="px-5 text-[20px] text-center">Whether it's a concert, wedding or corporate event, capturing the energy expereinced is mission critical. If you're looking to capture that energy, follow the steps below so we can Freeze The Moment.</p>
             </div>
             
             <div  className=" flex flex-col items-center mt-12">
