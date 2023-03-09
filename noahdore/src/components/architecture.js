@@ -43,22 +43,22 @@ export default function Architecture(){
            
             <div  className=" flex flex-col items-center">
             {isMobile?  "" : <h1 className="text-black text-[40px] md:text-[55px] text-center px-5">Architecture Photography</h1>}
-            <p className="px-5 text-[20px] text-center">At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint.</p>
+            <p className="px-5 text-[20px] text-center">Whether you're a realtor selling a home, or are simply an owner looking to show off your beautiful corner of this earth, capturing the energy expereinced is mission critical. If you're looking to capture that energy, follow the steps below so we can Freeze The Moment</p>
             </div>
             
             <div  className=" flex flex-col items-center mt-12">
-                <p className="text-[35px]">Step 1:Message Me</p>
-                <p className="w-[60%] text-center">At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint.</p>
+                <p className="text-[35px]">Step 1: Message Me</p>
+                <p className="w-[60%] text-center">Float your ideas, set a time and a place, and we can start planning our time behind the lens.</p>
             </div>
 
             <div  className=" flex flex-col items-center  mt-12">
-                <p className="text-[35px]">Step 2:Collaboration</p>
-                <p className="w-[60%] text-center">At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint.</p>
+                <p className="text-[35px]">Step 2: Collaboration</p>
+                <p className="w-[60%] text-center">Know exactly what you're looking for? Need help with a little inspiration? No worries, bring everything you've got and we'll make the magic happen.</p>
             </div>
 
             <div  className="flex flex-col items-center  mt-12">
-                <p className="text-[35px]">Step 3:Delivery</p>
-                <p className="w-[60%] text-center">At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint.</p>
+                <p className="text-[35px]">Step 3: Delivery</p>
+                <p className="w-[60%] text-center">You'll receive a downloadable link encapsulating your experince ready to be shared with the world.</p>
             </div>
 
             <Footer /> 
