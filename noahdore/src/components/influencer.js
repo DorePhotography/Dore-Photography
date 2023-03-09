@@ -44,7 +44,7 @@ export default function Influencer(){
            
             <div  className=" flex flex-col items-center">
             {isMobile?  "" : <h1 className="text-black text-[40px] md:text-[55px] text-center px-5">Influencer Photography</h1>}
-            <p className="px-5 text-[20px] text-center">Whether you're a seasoned pro of the 'gram looking to bring some professional grade to your page, or new to world of influencing, telling your story is mission critical. If you're looking to capture that story, follow the steps below so we can Freeze The Moment.</p>
+            <p className="px-5 text-[20px] text-center">Whether you're a seasoned pro of the 'gram looking to bring some professional grade to your page, or new to the world of influencing, telling your story is mission critical. If you're looking to capture that story, follow the steps below so we can Freeze The Moment.</p>
             </div>
             
             <div  className=" flex flex-col items-center mt-12">
