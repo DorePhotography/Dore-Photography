@@ -54,7 +54,7 @@ export default function Influencer(){
 
             <div  className=" flex flex-col items-center  mt-12">
                 <p className="text-[35px]">Step 2: Collaboration</p>
-                <p className="w-[60%] text-center">Got something particular in mind? Just looking for candids? No worries, bring everything you've got and we'll make the magic happen.</p>
+                <p className="w-[60%] text-center">Got ideas of your own? Need help with a little inspiration? No worries, bring everything you've got and we'll make the magic happen.</p>
             </div>
 
             <div  className="flex flex-col items-center  mt-12">
