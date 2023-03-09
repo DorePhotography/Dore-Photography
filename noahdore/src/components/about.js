@@ -20,7 +20,7 @@ export default function About(){
                 <img className={isMobile? " rounded-[200px] w-[200px] mb-5 drop-shadow-2xl ":"rounded-[200px] w-[350px] mb-10 drop-shadow-2xl"} src={NoahPic}></img>
                 <h2 className="text-[50px] text-[#202020]">Noah Dore</h2>
                 <div className="max-w-[450px] flex-col">
-                <p className="w- text-[20px] text-[#202020]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa. Aliquam erat volutpat. Sed ut dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia lectus. ”</p>
+                <p className="w- text-[20px] text-[#202020]">“Howdy”</p>
                 </div>
             </div>
 
